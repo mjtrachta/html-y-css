@@ -1,0 +1,79 @@
+/* Puts the form in the center both horizontally and vertically. Sets its height to 100% of the viewport's height */
+
+.signupFrm {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+}
+
+.form {
+  background-color: beige;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  margin-bottom: 550px;
+  margin-top: 10px;
+  
+}
+
+input{
+  height: 25px;
+  font-size: 15px;
+}
+
+select{
+  height: 25px;
+  font-size: 15px;
+}
+
+
+
+.inputContainer {
+  font-size: 19px;
+  height: 10px;
+  width: 90%;
+  margin-bottom: 17px;
+
+  
+}
+
+.titulo_formulario {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: 'Comic Sans MS';
+
+}
+
+
+table {
+	height: 150px;
+	width: 100%;
+	background-color: #e7e4ff;
+}
+
+#header_logo {
+	display: inline-block;
+	width: 150px;
+	height: 100%;
+}
+
+
+#header_titulo {
+	display: inline-block;
+
+  font-size: 50px;
+  font-family: 'Comic Sans MS';
+
+  margin-left: 500px;
+}
+
+#enviar {
+  padding: 4px 15px;
+  border: none;
+  background-color: rgb(0, 100, 128);
+  color: white;
+  border-radius: 60px;
+  font-size: 16px;
+  margin-top: 10px;
+}
