@@ -67,13 +67,24 @@ table {
 
   margin-left: 500px;
 }
-
+/*
 #enviar {
   padding: 4px 15px;
   border: none;
-  background-color: rgb(0, 100, 128);
+  background-color: green;
   color: white;
   border-radius: 60px;
   font-size: 16px;
   margin-top: 10px;
+  cursor: pointer;
+}
+*/
+button {
+  background-color: green;
+  padding: 7px 7px;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  font-size: 20px;
 }
